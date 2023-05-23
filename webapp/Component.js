@@ -9,9 +9,7 @@ sap.ui.define([
             manifest: "json"
       },
       init : function () {
-         // chama a função init:
          UIComponent.prototype.init.apply(this, arguments);
-         // define o modelo de dados:
          var oData = {
             recipient : {
                name : "World"
