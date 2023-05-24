@@ -11,6 +11,7 @@ sap.ui.define([
 				currency: "EUR"
 			});
 			this.getView().setModel(oViewModel, "view");
+
 			var oRouter = this.getOwnerComponent().getRouter();
 			oRouter.getRoute("detail").attachPatternMatched(this._onObjectMatched, this);
 		},
